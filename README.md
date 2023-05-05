@@ -1,0 +1,2 @@
+# prevent_translation_of_code_block
+DeepLを使ってるとき、コードブロックも翻訳されてしまうのを防ぐChrome拡張機能
