@@ -1,6 +1,11 @@
 # prevent_translation_of_code_block
 DeepLを使ってるとき、コードブロックも翻訳されてしまうのを防ぐChrome拡張機能
 
+- 対象
+  - `<code>`, `<pre>`
+- 追加する属性
+  - `translate=no`, `class=notranslate`
+
 ## refs
 
 - [Disable Translation of Elements](https://www.deepl.com/ja/docs-api/html/disabling/)

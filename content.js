@@ -8,9 +8,12 @@ function main(e) {
 	    clearInterval(jsInitCheckTimer);
 	    for (var i = 0; i < codeTags.length; i++) {
 		codeTags[i].setAttribute('translate', 'no');
-	    }
-	    for (var i = 0; i < codeTags.length; i++) {
 		codeTags[i].setAttribute('class', 'notranslate');
+	    }
+	    preTags = document.getElementsByTagName('pre') 
+	    for (var i = 0; i < preTags.length; i++) {
+		preTags[i].setAttribute('translate', 'no');
+		preTags[i].setAttribute('class', 'notranslate');
 	    }
 	}
     }
