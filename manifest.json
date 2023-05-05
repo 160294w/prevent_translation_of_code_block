@@ -2,7 +2,7 @@
   "name": "prevent_translation_of_code_tags",
   "version": "1.0",
   "description": "Adds a custom attribute to code tags on page load",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [
     "activeTab"
   ],
